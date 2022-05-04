@@ -239,10 +239,12 @@ box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
     padding-bottom: 30px;
 }
 
+
 .coeur {
     margin-top: -47px;
     float: right;
     padding-right: 34px;
+
 }
 
 .coeur-hover {
@@ -251,12 +253,13 @@ box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
     padding-right: 34px;
     display:none
 }
-#coeur :visited{
+.coeur:visited{
     font-size: 28px;
 color: #9356DC;
 -webkit-text-stroke: 2px black;
-
 }
+
+
 
 .coeur .fas {
 font-size: 28px;
@@ -319,15 +322,17 @@ footer {
     font-family: 'Shrikhand';
     font-weight: lighter;
 }
+/* tablette*/
+@media (min-width: 601px) and  (max-width: 1200px) {
 
-
-/* PARTIE RESPONSIVE MOBILE */
-@media (max-width: 1000px) {
-
-.regle_parent{
-    flex-direction: column;
-    margin-left: 25%;
+    .regle_parent{
+        flex-direction: column;
+        margin-left: 25%;
+    }
 }
+
+/* mobile */
+@media (max-width: 600px) {
 
 .image-resto {
 width: 22rem;
