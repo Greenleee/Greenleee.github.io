@@ -486,18 +486,6 @@ height: fit-content;
 }
 
 
-
-/* @keyframes appearance {
-from {
-    transform: translatey(9999px);
-    visibility: hidden;
-}
-to {
-    transform: translatey(0px);
-}
-} */
-
-
 .footer-text-bottom a {
 color: white;
 text-decoration: none;
