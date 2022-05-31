@@ -1,3 +1,9 @@
+/* :root {
+    --violet: #9356DC ;
+    --rose: #FF79DA;
+    --vert: #99E2D0;
+    } */
+
 Body {
     font-family: roboto;
     margin: 0px;
@@ -42,7 +48,7 @@ Body {
     flex-direction: row;
 }
 
-/*ani chargment*/
+
 @keyframes disappear {
 to {
     opacity: 0%;
@@ -50,7 +56,7 @@ to {
 }
 }
 
-/* Localisation */
+/* LOCALISATION UTILISATEUR */
 .position {
     display: flex;
     align-items: center;
@@ -70,7 +76,7 @@ to {
     font-weight: 900;
 }
 
-/* titre principal */
+/* TITRE PRINCIPAL */
 .titreprincipal {
     display: flex;
     align-items: center;
@@ -89,7 +95,7 @@ to {
     margin-top: 5px;
 }
 
-/* bouton nav */
+/* BOUTON DEGRADÉ */
 .boutonnav {
     margin-top: 15px;
     display: flex;
@@ -97,9 +103,9 @@ to {
 }
 
 .boutonnav button:hover {
-opacity: 90%;   
-transition-duration: 500ms;
-box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
+    opacity: 90%;   
+    transition-duration: 500ms;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
 }
 
 .boutonnav button {
@@ -113,7 +119,7 @@ box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
     background-image: linear-gradient(165deg,#FF79DA,#9356DC);
 }
 
-/* fonctonnement */
+/* FONCTIONNEMENT 3 ETAPES */
 .fonctionnement {
     text-align: center;
     margin-top: 35px
@@ -235,19 +241,9 @@ box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
 
 
 .coeur {
-        opacity: 0;
-        position: absolute;
-        z-index: 0;
-        top: 2px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: linear-gradient(180deg, #FF79DA, #9356DC);
-        background-size: 100%;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        transition-delay: 0.5s;
-        transition: opacity 0.5s ease-out;
+    margin-top: -47px;
+    float: right;
+    padding-right: 34px;
 
 }
 
@@ -257,19 +253,18 @@ box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
     padding-right: 34px;
     display:none
 }
-
 .coeur:visited{
     font-size: 28px;
-color: #9356DC;
--webkit-text-stroke: 2px black;
+    color: #9356DC;
+    -webkit-text-stroke: 2px black;
 }
 
 
 
 .coeur .fas {
-font-size: 28px;
-color: white;
--webkit-text-stroke: 2px black;
+    font-size: 28px;
+    color: white;
+    -webkit-text-stroke: 2px black;
 }
 
 .coeur .fas:hover {
@@ -286,10 +281,10 @@ color: white;
 
 /* FOOTER ACCUEIL */
 .footer-resto {
-display: flex;
-align-items: center;
-gap: 10px;
-margin-bottom: -15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -15px;
 }
 
 .footer-partenaire {
@@ -340,9 +335,9 @@ footer {
 @media (max-width: 600px) {
 
 .image-resto {
-width: 22rem;
-height: 12rem;
-display: block;
+    width: 22rem;
+    height: 12rem;
+    display: block;
 }
 
 .fiche-resto {
