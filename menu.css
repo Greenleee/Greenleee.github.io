@@ -4,6 +4,13 @@ Body {
 }
 
 /* LOGO ET HEADER */
+
+.arrow {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
 i {
   display: flex;
 }
