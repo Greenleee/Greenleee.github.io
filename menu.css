@@ -1,6 +1,12 @@
 Body {
-  font-family: roboto;
-  margin: 0px;
+    font-family: roboto;
+    margin: 0px;
+    font-family: roboto;
+    margin: -30px;
+    width: auto;
+    margin-left: -0.5px;
+    margin-top: 1px;
+    margin-right: -40.5px;
 }
 
 /* LOGO ET HEADER */
@@ -35,15 +41,15 @@ i {
   -webkit-text-stroke: 2px black;
   }
   
-  .coeur .fas:hover {
-      font-size: 28px;
-      background: linear-gradient(165deg,#9356DC,#FF79DA);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -moz-background-clip: text;
-      -moz-text-fill-color: transparent;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 0px black; 
+.coeur .fas:hover {
+  font-size: 28px;
+  background: linear-gradient(165deg,#9356DC,#FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0px black; 
   }
 
 .logo {

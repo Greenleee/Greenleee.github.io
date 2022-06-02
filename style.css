@@ -1,7 +1,12 @@
 Body {
     font-family: roboto;
-    margin: 0px;
+    margin: -30px;
+    width: auto;
+    margin-left: -0.5px;
+    margin-top: 1px;
+    margin-right: -31.5px;
 }
+
 
 /* PARTIE LOGO ET HEADER */
 .logoheader {
@@ -334,6 +339,9 @@ footer {
     display: block;
 }
 
+.regle_parent{
+    margin-left: -10px;
+}
 .fiche-resto {
     height: auto;
 }
