@@ -447,6 +447,39 @@ section {
   object-fit: cover;
 }
 
+/* .fiche-plats:hover .check i {
+}
+.fiche-plats:hover .check {
+}
+.fiche-plats:hover {
+}
+.fiche-plats:hover .texte-box p {
+
+}
+.fiche-plats:hover .prix-plat p {
+  
+} */
+/* au clique  */
+.fiche-plats:active .check i {
+  animation: 0.5s alternate rotate;
+}
+.fiche-plats:active .check {
+  opacity: 1;
+  animation: 0.5s ease-in reverse both check;
+}
+.fiche-plats:active {
+  transition: all 1s ease-out;
+}
+.fiche-plats:active .texte-box p {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 0.5s ease-in both width;
+  text-overflow: ellipsis;
+}
+.fiche-plats:active .prix-plat p {
+  animation: 0.5s ease-in reverse both prix-plat;
+}
+
 }
 
 @media (max-width: 700px) {
